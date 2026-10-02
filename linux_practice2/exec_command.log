@@ -1,0 +1,126 @@
+    1  ls /usr
+    2  pwd
+    3  cd /root
+    4  pwd
+    5  cd usr
+    6  cd /usr
+    7  docker stop debian
+    8  exit
+    9  cd /usr
+   10  pwd
+   11  ls
+   12  cd /home
+   13  mkdir test1
+   14  ls
+   15  pwd
+   16  cd /home
+   17  pwd
+   18  mkdir -p test2/test3
+   19  ls test2
+   20  touch test1/index.php
+   21  ls test1
+   22  cd /home/test1 && ls
+   23  cp index.php copy.php
+   24  ls
+   25  cp -r test1 test4
+   26  cd ./
+   27  cd../
+   28  cd ./home
+   29  cd ..
+   30  cp -r test1 test4
+   31  ls
+   32  ls test4
+   33  ls
+   34  ls test2
+   35  mv test2/test3 test3
+   36  ls
+   37  ls test2
+   38  ls
+   39  mv test4 test1_copy
+   40  ls
+   41  rm test1/copy.php
+   42  ls test1
+   43  rm -r test3
+   44  ls
+   45  ls test1
+   46  ls test1_copy
+   47* 
+   48  ls test1_copy
+   49  echo '# Hello World' > README.md
+   50  ls
+   51  cat README.md
+   52  echo 'Linux Practice' >> README.md
+   53  cat README.md
+   54  echo '-----------------' >> README.md
+   55  cat README.md
+   56  apt update -y && apt install -y vim
+   57  vi README.md
+   58  locale
+   59  export LANG=C.UTF-8
+   60  export LC_ALL=C.UTF-8
+   61  locale
+   62  vim README.md
+   63  vim README.md
+   64  cd /root
+   65  mkdir server_lesson && cd server_lesson
+   66  apt update -y && apt install -y git
+   67  git version
+   68  git init
+   69  git remote add origin https://github.com/ozaki-ai/Server-Lesson.git
+   70  git remote -v
+   71  git commit -m "初期コミット"
+   72  git log
+   73  touch first.txt
+   74  git commit -m "初期コミット"
+   75  git log
+   76  git status
+   77  git add first.txt
+   78  git commit -m "初期コミット"
+   79  git config --global user.name "Ozaki"
+   80  git config --global user.email "ozaki.0326.h@gmail.com"
+   81  git status
+   82  git commit -m "初期コミット"
+   83  git lig
+   84  git log
+   85  git push -u origin master
+   86  git push -u origin master
+   87  ozaki-ai
+   88  git push -u origin master
+   89  git push -u origin master
+   90  git push -u origin master
+   91  git push -u origin master
+   92  git push -u origin master
+   93  git checkout -b work
+   94  ls
+   95  mkdir -p linux_practice1/public
+   96  touch linux_practice1/public/index.php
+   97  ls linux_practice1/public/
+   98  pwd
+   99  git branch
+  100  cp linux_practice1/public/index.php linux_practice1/public/index_bk.php
+  101  cp -r linux_practice1/public linux_practice1/tmp
+  102  rm linux_practice1/public linux_practice1/tmp/index_bk.php
+  103  ls linux_practice1/tmp
+  104  touch README.md
+  105  vim README.md
+  106  ls
+  107  mkdir linux_practice2/documents
+  108  ls
+  109  mkdir -p linux_practice2/documents
+  110  touch linux_practice2/documents/beyond{01..50}.md
+  111  ls linux_practice2/documents
+  112  ]mkdir linux_practice2/trash
+  113  ls
+  114  mkdir linux_practice2/trash
+  115  mv linux_practice2/documents/beyond{20..40}.md linux_practice2/trash
+  116  ls linux_practice2/trash
+  117  touch .gitignore
+  118  ls
+  119  ls -a
+  120  rm .gitignore
+  121  ls -a
+  122* 
+  123  ls linux_practice2
+  124  ls -a linux_practice2
+  125  vi linux_practice2/.gitignore
+  126  history 300 > linux_practice2/exec_command.log
